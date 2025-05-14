@@ -17,7 +17,7 @@ if [ $? -ne 0 ]; then
     echo "Error: 下载脚本 index.js 失败！"
     exit 1
 fi
-curl -s -o "/home/$username/cron.sh" "https://raw.githubusercontent.com/frankiejun/node-ws/main/cron.sh"
+curl -s -o "/home/$username/cron.sh" "https://raw.githubusercontent.com/decadefraiz/node-ws-whm/main/cron.sh"
 if [ $? -ne 0 ]; then
     echo "Error: 下载脚本 cron.sh 失败！"
     exit 1
